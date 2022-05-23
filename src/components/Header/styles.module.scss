@@ -1,0 +1,44 @@
+.headerContainer1{
+  display: flex;
+  height: 6rem;
+  width: 100%;
+  background-color: RGB(34, 34, 34);
+  border-bottom: 2px solid RGB(0, 170, 96);
+}
+.headerContainer{
+  width: 80%;
+  height: 6rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLogo{
+  display: flex;
+
+  img{
+    width: 40px;
+    height: 40px;
+  }
+
+  h2{
+    color: white;
+    text-decoration: underline RGB(0, 170, 96);
+  }
+}
+
+.headerContent{
+  display: flex;
+
+  .headerButton{
+    color: aliceblue;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .headerButton:hover{
+    color: RGB(0, 170, 96);
+  }
+}
+

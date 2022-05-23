@@ -5,10 +5,10 @@ import cartActions from './store/actions/cart';
 
 const useStyles = makeStyles((theme) => ({
     paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center'
+        padding: theme.spacing(2),
+        textAlign: 'center'
     },
-  }));
+}));
 
 const Card = ({ product, children }) => {
     const cart = useSelector( state => state.cart.value )
